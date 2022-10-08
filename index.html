@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>FIT2102 A1 2022</title>
+  </head>
+  <body>
+    <h1>Frogger</h1>
+    <p id="score"> Score : 0 </p>
+    <p id="record">  Highest Record : <var id = "high" > 0 </var> </p>
+    <p id="lifes">  Life Remaining: <var id = "life" > 5 </var> </p>
+    <p id="level"> GAME LEVEL : 0 </p>
+    <p> If you want to reset the game please key in 'r'. </p>
+    <svg id="svgCanvas" width="600" height="600">
+
+      <g id=backgroundLayer>
+        <text id ="a" x="125" y="60">aaaa</text>
+        <rect  calss= "start" id="start" x="0" y="540" height="60" width="600" style = "fill: green;"></rect>
+        <rect  calss= "middle" id="middle" x="0" y="300" height="60" width="600" style = "fill: green;"></rect>
+        <rect  calss= "dest" id="dest" x="0" y="0" height="60" width="600" style = "fill: orange;"></rect>
+    </g>
+    <g id=foregroundLayer>
+      <rect  calss= "frog" id="frog" height="60" width="60" style = "fill: red;"></rect>
+    </g>
+    
+     
+        
+    </svg>
+  </body>
+</html>
