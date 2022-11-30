@@ -1,4 +1,4 @@
-# frogger
+# frogger web based game
 A frogger game project
 
 The key of the project is implementing it in Functional Programming.
